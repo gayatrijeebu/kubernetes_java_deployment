@@ -36,7 +36,7 @@ spec:
         - containerPort: 8030
         livenessProbe:
           httpGet:
-            path: /health
+            path: /example
             port: 8030
           initialDelaySeconds: 30
           timeoutSeconds: 1
